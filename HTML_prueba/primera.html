@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<HTML LANG="ES">
+<head>
+	<title>Tercera</title>
+</head>
+<body background="fotos/7.jpg">
+	<h1 align="center">Videojuegos</h1>
+		<p align="center"></p>
+		<h2 style="color:#DD0634"><div align="center">Los videojuegos cada vez son mas usados como pasatiempos, hobbie y incluso profesion, en este html vermos sus diferentes variantes.</div></h2>
+		<img height="250" width="350" src="fotos/8.jpg">
+		<p>
+			<h4>Vamos a hacer un formulario para ver el tipo de juego preferido
+			por diferentes rangos de edades</h4>	
+		</p>
+
+<form action="ejemplo.php" method="get">
+  <p>Nombre: <input type="text" name="nombre" size="40"></p>
+  <p>Año de nacimiento: <input type="number" name="nacido" min="1930"></p>
+  <p>Juego preferido:
+    <input type="radio" name="Shooter" value="s"> Shooter
+    <input type="radio" name="RPG" value="r"> RPG
+    <input type="radio" name="RPG" value="r"> MOBA
+  </p>
+  <p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+  </p>
+</form>
+<p>Videojuegos de cada tipo</p>
+<table border="10" >
+      <thead>
+          <th>Shoter</th>
+          <th>MMORPG</th>
+          <th>MOBA</th>
+      </thead>        
+      <tbody>
+        <tr>
+          <td>Call of duty</td>
+          <td>Word of WarCraft</td>
+          <td>Leage of Legends</td>
+        </tr>
+        <tr>
+          <td>Battelfield</td>
+          <td>Black dessert</td>
+          <td>Dota</td>          
+        </tr>        
+      </tbody>   
+    </table>
+</body>
+</HTML>
